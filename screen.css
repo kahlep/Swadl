@@ -1171,7 +1171,7 @@ table {
 #header {
   background-color: #89bf04;
   padding: 14px;
-  displax: none;
+  display: none;
 }
 #header a#logo {
   font-size: 1.5em;
