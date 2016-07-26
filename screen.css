@@ -1169,7 +1169,8 @@ table {
   cursor: pointer;
 }
 #header {
-  background-color: #89bf04;
+  /* background-color: #89bf04;*/
+  background-color: #245580;
   padding: 14px;
 /*   display: none; */
 }
@@ -1177,8 +1178,8 @@ table {
   font-size: 1.5em;
   font-weight: bold;
   text-decoration: none;
-  padding: 20px 0 20px 45px;
-  background: transparent url(swadl.png) no-repeat left center;
+  padding: 20px 0 20px 0px; /* that was for the logo... 45px; */
+  /* background: transparent url(swadl.png) no-repeat left center; */
   color: white;
 }
 #header img {
@@ -1187,7 +1188,8 @@ table {
   top:5px;
 }
 #header form#api_selector {
-  display: block;
+  /* display: block; */
+  display: none;
   clear: none;
   position:absolute;
   top:0px;
